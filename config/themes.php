@@ -25,13 +25,20 @@ return [
         ],
     ],
 
-    'admin-default' => 'default',
+
+    'admin-default' => 'vuexy',
 
     'admin-themes' => [
         'default' => [
             'views_path' => 'resources/admin-themes/default/views',
             'assets_path' => 'public/admin-themes/default/assets',
             'name' => 'Default'
+        ],
+
+        'vuexy' => [
+            'views_path' => 'resources/admin-themes/vuexy/views',
+            'assets_path' => 'public/admin-themes/vuexy/assets',
+            'name' => 'Vuexy'
         ]
     ]
 ];
